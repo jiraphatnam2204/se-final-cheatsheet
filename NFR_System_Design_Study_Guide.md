@@ -132,14 +132,14 @@ THICK CLIENT:
 
 ### Architecture Characteristics Matrix
 
-| Characteristic | Server-Based | Client-Based | Client-Server |
-|---|---|---|---|
-| Cost of Infrastructure | Very High | Medium | **Low** |
-| Cost of Development | Medium | **Low** | High |
-| Ease of Development | **Low** | High | Low–Medium |
-| Interface Capabilities | Low | **High** | **High** |
-| Control & Security | **High** | Low | Medium |
-| Scalability | Low | Medium | **High** |
+| Characteristic         | Server-Based | Client-Based | Client-Server |
+| ---------------------- | ------------ | ------------ | ------------- |
+| Cost of Infrastructure | Very High    | Medium       | **Low**       |
+| Cost of Development    | Medium       | **Low**      | High          |
+| Ease of Development    | **Low**      | High         | Low–Medium    |
+| Interface Capabilities | Low          | **High**     | **High**      |
+| Control & Security     | **High**     | Low          | Medium        |
+| Scalability            | Low          | Medium       | **High**      |
 
 > **Key insight**: No single architecture wins on all dimensions. Architecture selection is a **trade-off analysis** driven by which NFRs are most critical for the system.
 
